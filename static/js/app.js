@@ -4,7 +4,7 @@ var tableData = data;
 // YOUR CODE HERE!
 fillTable(tableData);
 
-// assing listener and handler to button
+// add listener and handler to button
 var filterButton = d3.select('#filter-btn');
 filterButton.on('click',function(){
     d3.event.preventDefault();
